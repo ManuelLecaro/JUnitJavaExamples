@@ -19,7 +19,7 @@ public class AssertFalse {
     }
      
     @Test
-    public void evenNumberTest(){
+    public void pruebaNumeroImpar(){
         AssertFalse asft = new AssertFalse();
         assertFalse(asft.esImpar(34));
     }
