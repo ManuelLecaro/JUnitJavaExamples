@@ -13,6 +13,9 @@ public class FailTest {
 	  public void setUp() {
 	    fallo = new Fail();
 	  }
+	
+	//Este metodo es el mas adecuado porque de este modo nos aseguramos que el metodo 
+	//methodNull en Fail envia un mensaje en relacion a la excepciones que debe retornar 
 	@Test
 	public void test() {
 	      if(fallo == null){
